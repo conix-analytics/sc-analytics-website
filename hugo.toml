@@ -13,6 +13,7 @@ enable   = true
 intro    = "Stijn Conix"
 title    = "Causal analysis and Bayesian modelling"
 subtitle = "Responsible statistics for robust, replicable results."
+image = "/images/profile_pic.jpg"
 
 [params.hero.button]
 enable   = true
