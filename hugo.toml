@@ -1,0 +1,27 @@
+baseURL = "/"  
+languageCode = "en"
+title = "Stijn Conix — SC-Analytics"
+theme = "hugo-profile"
+
+[params]
+  title = "Stijn Conix — SC-Analytics"
+  description = "Causal statistical analysis rooted in science and open source industry practices"
+  useBootstrapCDN = true
+
+  [params.hero]
+    enable = true
+    intro = "Stijn Conix"
+    title = "Causal analysis and Bayesian modelling"
+    subtitle = "Responsible statistics for robust, replicable results."
+    button = true
+    buttonText = "Contact"
+    buttonURL = "/contact/"
+
+  [params.about]
+    enable = true
+    title = "About"
+    content = "I use my academic background in experimental design and causal analysis to support statistical work in both research and industry."
+
+  [params.projects]
+    enable = true
+    title = "Selected Work & Publications"

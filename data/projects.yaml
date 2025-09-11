@@ -1,0 +1,8 @@
+- name: "Paper: Disagreement in bird taxonomy"
+  description: "Paper exploring disagreement in bird taxonomy using Bayesian methods."
+  link: "#"
+  tags: ["taxonomy","Bayesian"]
+- name: "Paper: Societal Relevance via Peer Review"
+  description: "Methods to assess humanities research societal relevance."
+  link: "#"
+  tags: ["research","peer review"]
