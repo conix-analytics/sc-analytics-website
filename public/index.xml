@@ -2,10 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stijn Conix — SC-Analytics</title>
-    <link>//localhost:1313/</link>
+    <link>//localhost:46011/</link>
     <description>Recent content on Stijn Conix — SC-Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:46011/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>//localhost:46011/contact/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:46011/contact/</guid>
+      <description>&amp;ldquo;Hello! If you can read this line, the page content is rendering.&amp;rdquo;&#xA;Leave this field empty Your name Your email Your message I consent to being contacted about this inquiry. Send</description>
+    </item>
   </channel>
 </rss>

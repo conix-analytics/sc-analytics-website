@@ -3,6 +3,11 @@ languageCode = "en"
 title = "Stijn Conix — SC-Analytics"
 theme = "hugo-profile"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
 title = "Stijn Conix — SC-Analytics"
 description = "Causal statistical analysis rooted in science and open source industry practices"
@@ -19,7 +24,7 @@ image = "/images/profile_pic.jpg"
 [params.hero.button]
 enable   = true
 name     = "Contact"
-url      = "mailto:stijn.conix@email.com"
+url      = "/contact/"
 newPage  = false
 download = false
 
@@ -36,3 +41,4 @@ content = "I use my academic background in experimental design and causal analys
 [params.projects]
 enable = true
 title  = "Selected Work & Publications"
+
