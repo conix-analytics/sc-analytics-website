@@ -10,17 +10,23 @@ useBootstrapCDN = true
 
 [params.hero]
 enable   = true
-intro    = "Stijn Conix"
-title    = "Causal analysis and Bayesian modelling"
-subtitle = "Responsible statistics for robust, replicable results."
+intro    = "Hi, my name is"
+title    = "Stijn Conix"
+subtitle = "I do causal analysis and bayesian modelling."
+content = "I help people in industry and academia with responsible analysis for robust, replicable results."
 image = "/images/profile_pic.jpg"
 
 [params.hero.button]
 enable   = true
 name     = "Contact"
-url      = "/contact/"
+url      = "mailto:stijn.conix@email.com"
 newPage  = false
 download = false
+
+[params.hero.bookButton]
+name     = "Book a call"
+url      = "https://cal.com/stijnconix"   # or Calendly link
+newPage  = true
 
 [params.about]
 enable = true
