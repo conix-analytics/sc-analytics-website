@@ -43,3 +43,18 @@ content = "I use my academic background in experimental design and causal analys
 enable = true
 title  = "Selected Work & Publications"
 
+[[params.projects.items]]
+title = "Peer Review & the Relevance of Humanities Research"
+content = "Study that employs a Bayesian thurstonian model to model how raters judge the relevance of humanities research. We estimate the chauvinism and strictness of the raters, as well as the underlying relevance of the research papers they rate."
+image = "/images/document_effectsizes.png"
+featured = false
+badges = ["Bayesian modeling", "Science Policy", "Meta-Science"]
+
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-book"
+url = "https://direct.mit.edu/qss/article/doi/10.1162/qss.a.19/132641/Using-peer-review-to-evaluate-the-societal"
+
+[[params.projects.items.links]]
+icon = "fa-brands fa-github"  # GitHub icon
+url = "https://github.com/stijncon/IIH"
