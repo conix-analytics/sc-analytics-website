@@ -29,6 +29,7 @@ newPage  = false
 download = false
 
 [params.hero.bookButton]
+enable   = true  # Add this line
 name     = "Book a call"
 url      = "https://cal.com/stijnconix"   # or Calendly link
 newPage  = true
@@ -36,7 +37,7 @@ newPage  = true
 [params.about]
 enable = true
 title  = "About"
-content = "I use my academic background in experimental design and causal analysis to support statistical work in both research and industry."
+content = "I use my academic background in experimental design and causal analysis to support analytic work in both research and industry."
 
 [params.projects]
 enable = true
