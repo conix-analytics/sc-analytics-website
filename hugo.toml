@@ -3,11 +3,6 @@ languageCode = "en"
 title = "Stijn Conix — SC-Analytics"
 theme = "hugo-profile"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
 [params]
 title = "Stijn Conix — SC-Analytics"
 description = "Causal statistical analysis rooted in science and open source industry practices"
@@ -37,7 +32,11 @@ newPage  = true
 [params.about]
 enable = true
 title  = "About"
-content = "I use my academic background in experimental design and causal analysis to support analytic work in both research and industry."
+image = "/images/about_image.jpg"
+content = """I provide data-driven decision support for companies, researchers, and public agencies. With a background in Bayesian analysis, biodiversity science, and the digital humanities, I help make complex data understandable and actionable — from marketing effectiveness and experimentation to research evaluation and policy analysis. I care deeply about transparency and open science, and aim to make every analysis both rigorous and reproducible.
+
+I am currently developing a Bayesian marketing mix model and broader marketing analytics for a Belgian retail chain."""
+
 
 [params.projects]
 enable = true
@@ -50,7 +49,6 @@ image = "/images/document_effectsizes.png"
 featured = false
 badges = ["Bayesian modeling", "Science Policy", "Meta-Science"]
 
-
 [[params.projects.items.links]]
 icon = "fa-solid fa-book"
 url = "https://direct.mit.edu/qss/article/doi/10.1162/qss.a.19/132641/Using-peer-review-to-evaluate-the-societal"
@@ -58,3 +56,116 @@ url = "https://direct.mit.edu/qss/article/doi/10.1162/qss.a.19/132641/Using-peer
 [[params.projects.items.links]]
 icon = "fa-brands fa-github"  # GitHub icon
 url = "https://github.com/stijncon/IIH"
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-atom"  # would be OSF icon
+url = "https://osf.io/tnsfz/"
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-database"  
+url = "https://doi.org/10.5281/zenodo.7768577"
+
+
+
+[[params.projects.items]]
+title = "Measuring disagreement about bird taxonomy"
+content = "Study that develops a measure for disagreement about different bird taxonomies, and uses this measure to understand what drives disagreement and what we might do about it."
+image = "/images/taxonomy.png"
+featured = false
+badges = ["Bayesian modeling", "Biodiversity Science", "Meta-Science", "Digital Humanities"]
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-book"
+url = "https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/2601"
+
+[[params.projects.items.links]]
+icon = "fa-brands fa-github"  # GitHub icon
+url = "https://github.com/stijncon/Birds_disagreement"
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-database"  
+url = "https://doi.org/10.5281/zenodo.5749793"
+
+[[params.projects.items]]
+title = "Survey on the ethics of research funding"
+content = "Self-report survey to investigate the prevalence of questionnable research practices in the context of research funding."
+image = "/images/funding.png"
+featured = false
+badges = ["Bayesian modeling", "Research integrity", "Meta-Science", "Science Policy"]
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-book"
+url = "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293310"
+
+[[params.projects.items.links]]
+icon = "fa-brands fa-github"  # GitHub icon
+url = "https://github.com/stijncon/ERF_Survey"
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-atom"  # would be OSF icon
+url = "https://osf.io/jk6wd/"
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-database"  
+url = "https://doi.org/10.5281/zenodo.7673889"
+
+
+[[params.projects.items]]
+title = "Taxonomic disagreement about ranks in gray-areay taxa"
+content = "A vignette study that delves into the patterns and causes of taxonomic disagreement about species-level ranking decisions."
+image = "/images/vignette_study.png"
+featured = false
+badges = ["Bayesian modeling", "Biodiversity Science", "Meta-Science", "Digital Humanities"]
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-book"
+url = "https://academic.oup.com/bioscience/article/73/10/728/7284739"
+
+[[params.projects.items.links]]
+icon = "fa-brands fa-github"  # GitHub icon
+url = "https://github.com/stijncon/VTD"
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-atom"  # would be OSF icon
+url = "https://osf.io/qbmea/overview"
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-database"  
+url = "https://doi.org/10.5281/zenodo.7837123"
+
+
+[[params.projects.items]]
+title = "The costs of competition in distributing scarce research funds"
+content = "An opinion paper urging policy-makers and funding agencies to do more research on the best way to distribute research funding."
+image = "/images/funding_opinion.png"
+featured = false
+badges = ["Meta-Science", "Science Policy"]
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-book"
+url = "https://www.pnas.org/doi/10.1073/pnas.2407644121"
+
+[[params.projects.items]]
+title = "Measuring the isolation of research topics in philosophy"
+content = "Bibliometric study that tries to quantify and analyse the academic connectedness and isolation of research topics in various areas of academic philosophy."
+image = "/images/isolation_in_philosophy.png"
+featured = false
+badges = ["Science Policy", "Meta-Science", "Digital Humanities"]
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-book"
+url = "https://link.springer.com/article/10.1007/s11192-022-04276-y"
+
+[[params.projects.items.links]]
+icon = "fa-brands fa-github"  # GitHub icon
+url = "https://github.com/stijncon/Impact_of_philosophy"
+
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-database"  
+url = "https://doi.org/10.5281/zenodo.5521227"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

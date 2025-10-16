@@ -1,8 +1,12 @@
 ---
 title: "Contact"
 date: 2025-10-10
+toc: false
+socialShare: false
+tags: []
+author: ""
+enableReadingTime: false
 ---
-
 
 <form action="https://formspree.io/f/mjkaarkk" method="POST" class="container px-3 px-sm-5 px-md-5 px-lg-5">
   <!-- Redirect after success -->
