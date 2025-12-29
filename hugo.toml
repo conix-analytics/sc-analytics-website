@@ -1,12 +1,17 @@
-baseURL = "/"
+baseURL = "https://conix-analytics.github.io/sc-analytics-website/"
 languageCode = "en"
 title = "Stijn Conix — SC-Analytics"
 theme = "hugo-profile"
+canonifyURLs = true
+
+# Title 
 
 [params]
 title = "Stijn Conix — SC-Analytics"
 description = "Causal statistical analysis rooted in science and open source industry practices"
 useBootstrapCDN = true
+
+# Hero
 
 [params.hero]
 enable   = true
@@ -15,6 +20,8 @@ title    = "Stijn Conix"
 subtitle = "I do causal analysis and bayesian modelling."
 content = "I help people in industry and academia with responsible analysis for robust, replicable results."
 image = "/images/profile_pic.jpg"
+
+# Contact buttons
 
 [params.hero.button]
 enable   = true
@@ -29,14 +36,17 @@ name     = "Book a call"
 url      = "https://cal.com/stijnconix"   # or Calendly link
 newPage  = true
 
+# About
+
 [params.about]
 enable = true
 title  = "About"
 image = "/images/about_image.jpg"
-content = """I provide data-driven decision support for companies, researchers, and public agencies. With a background in Bayesian analysis, biodiversity science, and the digital humanities, I help make complex data understandable and actionable — from marketing effectiveness and experimentation to research evaluation and policy analysis. I care deeply about transparency and open science, and aim to make every analysis both rigorous and reproducible.
+content = """I provide data-driven decision support for companies, researchers, and public agencies. With a background in Bayesian analysis, biodiversity science, philosophy of science, and digital humanities, I help make complex data understandable and actionable — from marketing effectiveness and experimentation to research evaluation and policy analysis. I care deeply about transparency and open science, and aim to make every analysis both rigorous and reproducible.
 
-I am currently developing a Bayesian marketing mix model and broader marketing analytics for a Belgian retail chain."""
+I am currently developing a Bayesian marketing mix model and broader marketing analytics for a Belgian retailer."""
 
+# Selected work and publications
 
 [params.projects]
 enable = true
@@ -55,7 +65,7 @@ url = "https://direct.mit.edu/qss/article/doi/10.1162/qss.a.19/132641/Using-peer
 
 [[params.projects.items.links]]
 icon = "fa-brands fa-github"  # GitHub icon
-url = "https://github.com/stijncon/IIH"
+url = "https://github.com/stijncon/peer_review_relevance_humanities"
 
 [[params.projects.items.links]]
 icon = "fa-solid fa-atom"  # would be OSF icon
@@ -64,7 +74,6 @@ url = "https://osf.io/tnsfz/"
 [[params.projects.items.links]]
 icon = "fa-solid fa-database"  
 url = "https://doi.org/10.5281/zenodo.7768577"
-
 
 
 [[params.projects.items]]
@@ -80,7 +89,7 @@ url = "https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/2601"
 
 [[params.projects.items.links]]
 icon = "fa-brands fa-github"  # GitHub icon
-url = "https://github.com/stijncon/Birds_disagreement"
+url = "https://github.com/stijncon/birds_disagreement"
 
 [[params.projects.items.links]]
 icon = "fa-solid fa-database"  
@@ -99,7 +108,7 @@ url = "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293310
 
 [[params.projects.items.links]]
 icon = "fa-brands fa-github"  # GitHub icon
-url = "https://github.com/stijncon/ERF_Survey"
+url = "https://github.com/stijncon/ethics_research_funding_survey"
 
 [[params.projects.items.links]]
 icon = "fa-solid fa-atom"  # would be OSF icon
@@ -123,7 +132,7 @@ url = "https://academic.oup.com/bioscience/article/73/10/728/7284739"
 
 [[params.projects.items.links]]
 icon = "fa-brands fa-github"  # GitHub icon
-url = "https://github.com/stijncon/VTD"
+url = "https://github.com/stijncon/vignettes_taxonomic_disorder"
 
 [[params.projects.items.links]]
 icon = "fa-solid fa-atom"  # would be OSF icon
@@ -156,14 +165,109 @@ badges = ["Science Policy", "Meta-Science", "Digital Humanities"]
 icon = "fa-solid fa-book"
 url = "https://link.springer.com/article/10.1007/s11192-022-04276-y"
 
-[[params.projects.items.links]]
-icon = "fa-brands fa-github"  # GitHub icon
-url = "https://github.com/stijncon/Impact_of_philosophy"
-
 
 [[params.projects.items.links]]
 icon = "fa-solid fa-database"  
 url = "https://doi.org/10.5281/zenodo.5521227"
+
+# Academic expertise
+
+[params.experience]
+enable = true
+title = "Academic Expertise"
+
+[[params.experience.items]]
+job = "Meta-Science & Research Policy"
+company = "Meta-Science and Research Policy"
+companyUrl = ""
+content = """
+Studying the scientific process itself, including peer review, funding mechanisms, and research integrity.
+
+**Selected Publications:**
+- [Costs of Competition in Research Funding](https://www.pnas.org/doi/10.1073/pnas.2407644121)
+- [Using Peer Review to Meusure Societal Relevance](https://direct.mit.edu/qss/article/doi/10.1162/qss.a.19/132641)
+- [Questionable Research Practices in Research Funding](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293310)
+- [Fostering a Research Integrity Culture](https://academic.oup.com/spp/article-abstract/50/1/133/6749026)
+- [Funding Through a Modified Lottery](https://www.tandfonline.com/doi/full/10.1080/08989621.2021.1927727)
+"""
+
+[params.experience.items.info]
+enable = false
+
+[[params.experience.items]]
+job = "Biodiversity Science and Taxonomy"
+company = "Biodiversity Science and Taxonomy"
+companyUrl = ""
+content = """
+Quantitative and qualitative approaches to understanding taxonomic disagreement and its implications for biodiversity research.
+
+**Selected Publications:**
+- [Measuring Taxonomic Disagreement in Birds](https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/2601)
+- [Uncovering the Drivers of Taxonomic Disagreement](https://academic.oup.com/bioscience/article/73/10/728/7284739)
+- [Widespread Support for Species List Governance](https://www.pnas.org/doi/abs/10.1073/pnas.2306899120)
+- [Towards a Global List of Accepted Species](https://link.springer.com/article/10.1007/s13127-021-00496-x)
+- [Phyloreferences: Tree-Native, Reproducible, and Machine-Interpretable Taxon Concepts](https://journals.publishing.umich.edu/ptpbio/article/id/2101/)
+"""
+
+[params.experience.items.info]
+enable = false
+
+[[params.experience.items]]
+job = "Science, Society and Values"
+company = "Science and Society"
+companyUrl = ""
+content = """
+Philosophical research into the intersection between science and society.
+
+**Selected Publications:**
+- [Radical pluralism and Classificatory Norms](https://www.sciencedirect.com/science/article/abs/pii/S1369848617301681)
+- [Responsible Dissemination in Sexual Orientation Research](https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/responsible-dissemination-in-sexual-orientation-research-the-case-of-the-ai-gaydar/1973C1CA4816A61CC22F80F38CA5584D)
+- [The public relevance of philosophy](https://link.springer.com/article/10.1007/s11229-022-03546-9)
+- [Consequences of Inadequate Taxonomic List Governance](https://link.springer.com/article/10.1007/s13127-021-00518-8)
+- [The Entanglement of Values and Epistemic Standards](https://www.sciencedirect.com/science/article/abs/pii/S0039368119302043)
+"""
+
+[params.experience.items.info]
+enable = false
+
+
+# Education and Experience
+
+[params.education]
+enable = true
+title = "Education and Experience"
+index = false
+
+[[params.education.items]]
+title = "PostDoc Digital Humanities"
+date = "2023 - 2025"
+content = """
+Postdoctoral researcher at the [Pence Lab](https://pencelab.be/en/) at UCLouvain, developing and analysing a corpus of taxonomic literature through a variety of methods such as topic modeling, natural language processing, and bayesian modeling.  
+"""
+
+
+[[params.education.items]]
+title = "Interdisciplinary Postdoc Meta-Science"
+date = "2021 - 2022"
+content = """
+Project manager and main researcher on a project on taxonomic disorder at the [Centre for Logic and Philosophy of Science](https://hiw.kuleuven.be/clps) at KU Leuven..
+"""
+
+[[params.education.items]]
+title = "Postdoc Bias in Philosophy"
+date = "2018 - 2020"
+content = """
+Postdoctoral researcher working on bias in academic philosophy at [KU Leuven](https://hiw.kuleuven.be/clps).
+"""
+
+[[params.education.items]]
+title = "PhD in History and Philosophy of Science"
+date = "2014 - 2018"
+content = """
+PhD on the role of values in taxonomy at the [HPS department, University of Cambridge](https://www.hps.cam.ac.uk/).
+"""
+
+
 
 [markup]
   [markup.goldmark]
