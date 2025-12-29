@@ -1,0 +1,22 @@
+{{ if .Site.Params.services.enable | default false }}
+<section id="services" class="py-5">
+    <div class="container bg-transparent">
+        <h3 class="text-center bg-transparent">{{ .Site.Params.services.title | default "What I Can Help With" }}</h3>
+        <div class="bg-transparent row justify-content-center px-3 py-5">
+            <div class="col-sm-12 col-md-10 col-lg-8 content">
+                {{ if .Site.Params.services.items }}
+                <ul class="mb-4">
+                    {{ range .Site.Params.services.items }}
+                    <li class="mb-2">{{ . | markdownify }}</li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+                
+                {{ if .Site.Params.services.content }}
+                <p>{{ .Site.Params.services.content | markdownify }}</p>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

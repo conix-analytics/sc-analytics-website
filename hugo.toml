@@ -18,8 +18,8 @@ darkmode = true
 enable   = true
 intro    = "Hi, my name is"
 title    = "Stijn Conix"
-subtitle = "I do causal analysis and bayesian modelling."
-content = "I help people in industry and academia with responsible analysis for robust, replicable results."
+subtitle = "Bayesian and causal analysis for robust decision-making and replicable science."
+content = "My work is grounded in peer-reviewed research and emphasises structured (causal) models that make assumptions explicit and results interpretable."
 image = "/images/profile_pic.jpg"
 
 # Contact buttons
@@ -43,9 +43,22 @@ newPage  = true
 enable = true
 title  = "About"
 image = "/images/about_image.jpg"
-content = """I provide data-driven decision support for companies, researchers, and public agencies. With a background in Bayesian analysis, biodiversity science, philosophy of science, and digital humanities, I help make complex data understandable and actionable — from marketing effectiveness and experimentation to research evaluation and policy analysis. I care deeply about transparency and open science, and aim to make every analysis both rigorous and reproducible.
+content = """I provide rigorous decision support for companies, researchers, and public agencies working with complex data. My work is grounded in peer-reviewed research, with a background spanning Bayesian statistics, causal inference, biodiversity science, philosophy of science, and digital humanities.
 
-I am currently developing a Bayesian marketing mix model and broader marketing analytics for a Belgian retailer."""
+I focus on structured, typically causal models that make assumptions explicit and results interpretable, rather than purely predictive or black-box approaches. Across domains — from marketing effectiveness and experimentation to research evaluation and policy analysis — my aim is to produce analyses that are transparent, reproducible, and decision-relevant."""
+
+# What I Can Help With
+
+[params.services]
+enable = true
+title  = "What I Can Help With"
+items  = [
+    "Estimating causal effects using structured, typically causal models (experimental or observational data)",
+    "Designing and supporting empirical research projects, including preregistration, data management plans (DMPs), and publication-ready data and code",
+    "Quantifying uncertainty in forecasts and policy or strategy decisions",
+    "Stress-testing conclusions against alternative assumptions and model specifications"
+]
+content = """I approach applied problems with the same standards I use in academic research: explicit assumptions, transparent modelling choices, and careful treatment of uncertainty. Rather than chasing single best estimates, I prioritise robustness, sensitivity to assumptions, and the limits of what the data can support."""
 
 # Selected work and publications
 
