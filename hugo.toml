@@ -12,6 +12,9 @@ description = "Causal statistical analysis rooted in science and open source ind
 useBootstrapCDN = true
 darkmode = true
 
+[params.navbar]
+disableSearch = true
+
 # Hero
 
 [params.hero]
