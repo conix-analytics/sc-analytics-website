@@ -52,6 +52,7 @@ I focus on structured, typically causal models that make assumptions explicit an
 [params.services]
 enable = true
 title  = "What I Can Help With"
+image  = "/images/about_image.jpg"
 items  = [
     "Estimating causal effects using structured, typically causal models (experimental or observational data)",
     "Designing and supporting empirical research projects, including preregistration, data management plans (DMPs), and publication-ready data and code",
