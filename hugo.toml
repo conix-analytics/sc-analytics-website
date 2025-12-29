@@ -18,8 +18,8 @@ darkmode = true
 enable   = true
 intro    = "Hi, my name is"
 title    = "Stijn Conix"
-subtitle = "Bayesian and causal analysis for robust decision-making and replicable science."
-content = "My work is grounded in peer-reviewed research and emphasises structured (causal) models that make assumptions explicit and results interpretable."
+subtitle = "Statistical analysis for robust decision-making and replicable science."
+content = "My work is grounded in peer-reviewed research and emphasises structured, often bayesian, models that make assumptions explicit and results interpretable."
 image = "/images/profile_pic.jpg"
 
 # Contact buttons
