@@ -33,7 +33,7 @@ download = false
 [params.hero.bookButton]
 enable   = true  # Add this line
 name     = "Book a call"
-url      = "app.call.eu/scanalytics"   
+url      = "https://app.cal.eu/scanalytics"   
 newPage  = true
 
 # About
