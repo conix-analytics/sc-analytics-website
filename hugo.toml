@@ -135,7 +135,7 @@ url = "https://doi.org/10.5281/zenodo.5749793"
 
 
 [[params.projects.items]]
-title = "Taxonomic disagreement about ranks in gray-areay taxa"
+title = "Taxonomic disagreement about ranks in gray-area taxa"
 content = "A vignette study that delves into the patterns and causes of taxonomic disagreement about species-level ranking decisions."
 image = "/images/vignette_study.png"
 featured = false

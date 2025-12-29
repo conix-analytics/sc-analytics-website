@@ -1,0 +1,6 @@
+/* Custom CSS overrides */
+
+/* Smaller subtitle in hero section */
+#hero h2 {
+    font-size: clamp(14px, 3vw, 24px);
+}
