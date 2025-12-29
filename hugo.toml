@@ -18,8 +18,8 @@ darkmode = true
 enable   = true
 intro    = "Hi, my name is"
 title    = "Stijn Conix"
-subtitle = "Statistical analysis for robust decisions and replicable science."
-content = "My work is grounded in peer-reviewed research and emphasises structured models that make assumptions explicit and results interpretable."
+subtitle = "I help businesses and academics turn complex data into robust decisions and replicable science."
+content = "My work is grounded in peer-reviewed research. I design structured models that make assumptions explicit and results interpretable."
 image = "/images/profile_pic.jpg"
 
 # Contact buttons
