@@ -90,26 +90,6 @@ url = "https://osf.io/tnsfz/"
 icon = "fa-solid fa-database"  
 url = "https://doi.org/10.5281/zenodo.7768577"
 
-
-[[params.projects.items]]
-title = "Measuring disagreement about bird taxonomy"
-content = "Study that develops a measure for disagreement about different bird taxonomies, and uses this measure to understand what drives disagreement and what we might do about it."
-image = "/images/taxonomy.png"
-featured = false
-badges = ["Bayesian modeling", "Biodiversity Science", "Meta-Science", "Digital Humanities"]
-
-[[params.projects.items.links]]
-icon = "fa-solid fa-book"
-url = "https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/2601"
-
-[[params.projects.items.links]]
-icon = "fa-brands fa-github"  # GitHub icon
-url = "https://github.com/stijncon/birds_disagreement"
-
-[[params.projects.items.links]]
-icon = "fa-solid fa-database"  
-url = "https://doi.org/10.5281/zenodo.5749793"
-
 [[params.projects.items]]
 title = "Survey on the ethics of research funding"
 content = "Self-report survey to investigate the prevalence of questionnable research practices in the context of research funding."
@@ -132,6 +112,26 @@ url = "https://osf.io/jk6wd/"
 [[params.projects.items.links]]
 icon = "fa-solid fa-database"  
 url = "https://doi.org/10.5281/zenodo.7673889"
+
+
+[[params.projects.items]]
+title = "Measuring disagreement about bird taxonomy"
+content = "Study that develops a measure for disagreement about different bird taxonomies, and uses this measure to understand what drives disagreement and what we might do about it."
+image = "/images/taxonomy.png"
+featured = false
+badges = ["Bayesian modeling", "Biodiversity Science", "Meta-Science", "Digital Humanities"]
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-book"
+url = "https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/2601"
+
+[[params.projects.items.links]]
+icon = "fa-brands fa-github"  # GitHub icon
+url = "https://github.com/stijncon/birds_disagreement"
+
+[[params.projects.items.links]]
+icon = "fa-solid fa-database"  
+url = "https://doi.org/10.5281/zenodo.5749793"
 
 
 [[params.projects.items]]
@@ -265,7 +265,7 @@ Postdoctoral researcher at the [Pence Lab](https://pencelab.be/en/) at UCLouvain
 title = "Interdisciplinary Postdoc Meta-Science"
 date = "2021 - 2022"
 content = """
-Project manager and main researcher on a project on taxonomic disorder at the [Centre for Logic and Philosophy of Science](https://hiw.kuleuven.be/clps) at KU Leuven..
+Project manager and main researcher on a project on taxonomic disorder at the [Centre for Logic and Philosophy of Science](https://hiw.kuleuven.be/clps) at KU Leuven.
 """
 
 [[params.education.items]]
