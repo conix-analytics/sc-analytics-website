@@ -10,6 +10,7 @@ canonifyURLs = true
 title = "Stijn Conix — SC-Analytics"
 description = "Causal statistical analysis rooted in science and open source industry practices"
 useBootstrapCDN = true
+darkmode = true
 
 # Hero
 
