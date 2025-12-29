@@ -1,4 +1,4 @@
-{{- /* theme is auto */}}
+{{- /* theme defaults to dark */}}
 <script>
     let localStorageValue = localStorage.getItem("pref-theme");
     let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -11,9 +11,8 @@
             document.body.classList.remove('dark');
             break;
         default:
-            if (mediaQuery) {
-                document.body.classList.add('dark');
-            }
+            // Default to dark mode when no preference is set
+            document.body.classList.add('dark');
             break;
     }
 </script>
