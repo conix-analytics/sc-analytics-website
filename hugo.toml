@@ -45,7 +45,6 @@ newPage  = true
 [params.about]
 enable = true
 title  = "About"
-image = "/images/about_image.jpg"
 content = """I provide rigorous decision support for companies, researchers, and public agencies working with complex data. My work is grounded in peer-reviewed research, with a background spanning Bayesian statistics, causal inference, biodiversity science, philosophy of science, and digital humanities.
 
 I focus on structured, typically causal models that make assumptions explicit and results interpretable, rather than purely predictive or black-box approaches. Across domains — from marketing effectiveness and experimentation to research evaluation and policy analysis — my aim is to produce analyses that are transparent, reproducible, and decision-relevant."""
@@ -55,7 +54,6 @@ I focus on structured, typically causal models that make assumptions explicit an
 [params.services]
 enable = true
 title  = "What I Can Help With"
-image  = "/images/about_image.jpg"
 items  = [
     "Estimating causal effects using structured, typically causal models (experimental or observational data)",
     "Designing and supporting empirical research projects, including preregistration, data management plans (DMPs), and publication-ready data and code",

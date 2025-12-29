@@ -5,10 +5,9 @@
     font-size: clamp(12px, 2vw, 18px);
 }
 
-/* Smaller images in about and services sections */
-#about .image img,
-#services .image img {
-    max-width: 250px;
-    max-height: 250px;
-    object-fit: cover;
+/* Larger hero image on desktop */
+@media (min-width: 992px) {
+    #hero .image img {
+        max-width: 350px;
+    }
 }
