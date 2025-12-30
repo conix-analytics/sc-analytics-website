@@ -12,3 +12,21 @@
         height: auto;
     }
 }
+
+/* Contact form button styling */
+#single .page-content .btn {
+    transition: opacity 0.3s;
+    border-radius: .5rem !important;
+    border: 1px solid var(--primary-color) !important;
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
+    padding: 0.5rem 1.5rem;
+}
+
+#single .page-content .btn:hover {
+    opacity: 0.8;
+}
+
+#single .page-content .btn:focus {
+    box-shadow: none !important;
+}
