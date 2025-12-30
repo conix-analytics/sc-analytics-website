@@ -18,19 +18,23 @@
         <div class="pr-lg-4">
           <div class="title mb-5">
             <h1 class="text-center mb-4">{{ .Title }}</h1>
+            {{ if not .Params.hideMeta }}
             <div class="text-center">
               {{ if .Params.author }}
                 {{ .Params.author }}
                 <small>|</small>
               {{ end }}
+              {{ if not .Params.hideDate }}
               {{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }}
+              {{ end }}
 
-              {{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
+              {{ if and (ne .Params.enableReadingTime false) (or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime)) }}
               <span id="readingTime">
                 {{ .Site.Params.singlePages.readTime.content | default "min read" }}
               </span>
               {{ end }}
             </div>
+            {{ end }}
           </div>
           {{ if .Params.image }}
           <div class="featured-image">
