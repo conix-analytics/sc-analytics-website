@@ -76,10 +76,13 @@ jobs:
 
       - name: Build the site
         run: |
+          BASE_URL="${{ steps.pages.outputs.base_url }}/"
+          # Ensure HTTPS is used
+          BASE_URL="${BASE_URL/http:/https:}"
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "$BASE_URL"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
