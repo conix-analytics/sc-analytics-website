@@ -72,16 +72,16 @@ title  = "What I Can Help With"
 items  = []
 content = """
 **For Academics:**
-- Experiment design and power analysis
-- Support in responsible research practices (preregistration, open data, reproducible code)
-- Visualizing and communicating statistical results
-- Writing methodology and results sections
+- Experiment design and analysis
+- Support for responsible research practices (data management plan, preregistration, open data)
+- Clear visualisation and communication of statistical results
+- Support with writing and reviewing methodology and results sections
 
 **For Businesses:**
-- Design, implementation, and interpretation of experiments (A/B testing and more advanced designs)
-- Marketing mix modelling (MMM) and marketing analytics
-- Causal analysis of experimental and observational data
-- Data-driven decision making under uncertainty (quantifying and incorporating uncertainty into decisions)
+- Designing and analysing experiments (A/B tests and alternatives when standard testing isn’t feasible)
+- Understanding what marketing actually contributes to sales and growth, using aggregated data (media mix modelling, post-cookie)
+- Supporting decisions about what would happen if you do — or do not — intervene, including situations that differ from the past
+- Decision-making under uncertainty, with explicit estimates of risks and chances (e.g. the probability of gains, losses, or no effect)
 
 I approach applied problems with the same standards I use in academic research: explicit assumptions, transparent modelling choices, and careful treatment of uncertainty. Rather than chasing single best estimates, I prioritise robustness, sensitivity to assumptions, and the limits of what the data can support."""
 
@@ -341,16 +341,16 @@ title  = "Waarmee ik kan helpen"
 items  = []
 content = """
 **Voor Academici:**
-- Experimentontwerp en power-analyse
-- Ondersteuning bij verantwoorde onderzoekspraktijken (preregistratie, open data, reproduceerbare code)
+- Ontwerp van experimenten en analyse van de resultaten
+- Ondersteuning bij verantwoorde onderzoekspraktijken (DMP, preregistratie, open data)
 - Visualisatie en communicatie van statistische resultaten
 - Schrijven van methodologie- en resultatensecties
 
 **Voor Bedrijven:**
-- Ontwerp, implementatie en interpretatie van experimenten (A/B-testen en meer geavanceerde designs)
-- Marketing mix modellering (MMM) en marketinganalyses
-- Causale analyse van experimentele en observationele data
-- Datagedreven besluitvorming onder onzekerheid (kwantificeren en meenemen van onzekerheid in beslissingen)
+- Opzetten en analyseren van experimenten (A/B-tests en varianten wanneer klassiek testen niet volstaat)
+- Inzicht in wat marketing bijdraagt aan verkoop en groei, op basis van geaggregeerde data (media mix modelling, ook zonder cookies)
+- Ondersteuning bij beslissingen over wat er zou gebeuren als je wél of net niet ingrijpt — ook in situaties die afwijken van het verleden
+- Besluitvorming onder onzekerheid, met expliciete inschattingen van risico’s en kansen (bv. de kans op winst, verlies of geen effect)
 
 Ik benader toegepaste problemen met dezelfde standaarden die ik gebruik in academisch onderzoek: expliciete aannames, transparante modelleringskeuzes en zorgvuldige behandeling van onzekerheid. In plaats van het najagen van enkele beste schattingen, prioriteer ik robuustheid, gevoeligheid voor aannames en de grenzen van wat de data kunnen ondersteunen."""
 
@@ -361,7 +361,7 @@ title  = "Geselecteerd werk & publicaties"
 
 [[languages.nl.params.projects.items]]
 title = "Peer Review & de Relevantie van Geesteswetenschappelijk Onderzoek"
-content = "Studie die een Bayesiaans thurstoniaans model gebruikt om te modelleren hoe beoordelaars de relevantie van geesteswetenschappelijk onderzoek beoordelen. We schatten het chauvinisme en de strengheid van de beoordelaars, evenals de onderliggende relevantie van de onderzoeksartikelen die ze beoordelen."
+content = "Studie die een Bayesiaans thurstoniaans model gebruikt om te modelleren hoe reviewers de relevantie van geesteswetenschappelijk onderzoek beoordelen. We schatten hoe chauvinistisch en streng de beoordelaars zijn, evenals de onderliggende relevantie van de onderzoeksartikelen die ze beoordelen."
 image = "/images/document_effectsizes.png"
 featured = false
 badges = ["Bayesiaanse modellering", "Wetenschapsbeleid", "Meta-Wetenschap"]
@@ -383,8 +383,8 @@ icon = "fa-solid fa-database"
 url = "https://doi.org/10.5281/zenodo.7768577"
 
 [[languages.nl.params.projects.items]]
-title = "Enquête over de ethiek van onderzoeksfinanciering"
-content = "Zelfrapportage-enquête om de prevalentie van twijfelachtige onderzoekspraktijken in de context van onderzoeksfinanciering te onderzoeken."
+title = "bevraging over de ethiek van onderzoeksfinanciering"
+content = "Bevraging om de prevalentie van twijfelachtige onderzoekspraktijken in de context van onderzoeksfinanciering te onderzoeken."
 image = "/images/funding.png"
 featured = false
 badges = ["Bayesiaanse modellering", "Onderzoeksintegriteit", "Meta-Wetenschap", "Wetenschapsbeleid"]
@@ -426,7 +426,7 @@ url = "https://doi.org/10.5281/zenodo.5749793"
 
 [[languages.nl.params.projects.items]]
 title = "Taxonomische onenigheid over rangen in grijze-zone taxa"
-content = "Een vignetstudie die de patronen en oorzaken van taxonomische onenigheid over soortsniveau-rankingbeslissingen onderzoekt."
+content = "Een vignetstudie die de patronen en oorzaken van taxonomische onenigheid over rankingbeslissingen onderzoekt."
 image = "/images/vignette_study.png"
 featured = false
 badges = ["Bayesiaanse modellering", "Biodiversiteitswetenschap", "Meta-Wetenschap", "Digital Humanities"]
