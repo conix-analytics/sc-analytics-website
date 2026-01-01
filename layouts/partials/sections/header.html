@@ -205,17 +205,18 @@
                     {{ end }}
 
                     <!-- Language Switcher -->
-                    {{ if .Site.IsMultiLingual }}
+                    {{ if gt (len .Site.Languages) 1 }}
                     <li class="nav-item navbar-text dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fa-solid fa-globe"></i> {{ .Site.Language.LanguageName }}
                         </a>
                         <div class="dropdown-menu dropdown-menu-end shadow-lg rounded" aria-labelledby="languageDropdown">
-                            {{ range $.Site.Home.AllTranslations }}
-                            {{ if ne .Lang $.Site.Language.Lang }}
-                            <a class="dropdown-item text-center nav-link" href="{{ .RelPermalink }}">
-                                {{ .Language.LanguageName }}
+                            {{ range .Site.Languages }}
+                            {{ if ne $.Site.Language.Lang .Lang }}
+                            {{ $langURL := cond (eq .Lang "en") ($.Site.BaseURL | relURL) (printf "%s%s/" ($.Site.BaseURL | relURL) .Lang) }}
+                            <a class="dropdown-item text-center nav-link" href="{{ $langURL }}">
+                                {{ .LanguageName }}
                             </a>
                             {{ end }}
                             {{ end }}
