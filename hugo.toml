@@ -61,9 +61,11 @@ newPage  = true
 [languages.en.params.about]
 enable = true
 title  = "About"
-content = """I provide rigorous decision support for companies, researchers, and public agencies working with complex data. My work is grounded in peer-reviewed research, with a background spanning Bayesian statistics, causal inference, biodiversity science, philosophy of science, and digital humanities.
+content = """I have nearly a decade of experience as an academic researcher, working across the University of Cambridge, KU Leuven, and UC Louvain. My research has spanned multiple fields, including digital humanities, philosophy of science, and biodiversity science, and has resulted in 46 peer-reviewed publications and over 500 citations. 
 
-I focus on structured, typically causal models that make assumptions explicit and results interpretable, rather than purely predictive or black-box approaches. Across domains — from marketing effectiveness and experimentation to research evaluation and policy analysis — my aim is to produce analyses that are transparent, reproducible, and decision-relevant."""
+Alongside academic research, I have been actively involved in policy and governance contexts. This included advising multilateral environmental agreements and international organisations such as the Catalogue of Life, and contributing to expert committees where research outcomes needed to be translated into concrete decisions, standards, and frameworks. 
+
+More recently, I have applied this background outside academia by helping the largest Belgian shoe retailer design and structure its charity and social-impact strategy. In this role, I drew on insights from development economics, ethics, and health economics to help the company allocate its charity budget in a way that best realized their impact goals. At the moment I am working with them to implement a marketing analytics framework"""
 
 # Services
 [languages.en.params.services]
@@ -72,18 +74,25 @@ title  = "What I Can Help With"
 items  = []
 content = """
 **For Academics:**
-- Experiment design and analysis
-- Support for responsible research practices (data management plan, preregistration, open data)
-- Clear visualisation and communication of statistical results
-- Support with writing and reviewing methodology and results sections
+- Designing and analysing experiments  
+- Support for responsible research practices (data management plans, preregistration, open data)  
+- Clear visualisation and communication of statistical results  
+- Support with writing, reviewing, and strengthening methodology and results sections  
 
 **For Businesses:**
-- Designing and analysing experiments (A/B tests and alternatives when standard testing isn’t feasible)
-- Understanding what marketing actually contributes to sales and growth, using aggregated data (media mix modelling, post-cookie)
-- Supporting decisions about what would happen if you do — or do not — intervene, including situations that differ from the past
-- Decision-making under uncertainty, with explicit estimates of risks and chances (e.g. the probability of gains, losses, or no effect)
+- Translating established academic evidence into usable insights and decisions, adapted to real-world data, constraints, and timelines  
+  *For example: adapting state-of-the-art statistical models from marketing research so they work at scale with noisy data and the operational constraints of practical decision-making.*
 
-I approach applied problems with the same standards I use in academic research: explicit assumptions, transparent modelling choices, and careful treatment of uncertainty. Rather than chasing single best estimates, I prioritise robustness, sensitivity to assumptions, and the limits of what the data can support."""
+- Quantifying what marketing contributes to sales and growth using aggregated, post-cookie data, to improve the return on marketing spend  
+  *For example: identifying which channels or campaigns can be scaled profitably, and which budgets can be reduced or reallocated without hurting sales.*
+
+- Designing and analysing experiments to identify which actions or interventions actually work  
+  *For example: testing whether a pricing change, promotion, website adjustment, or customer communication leads to a meaningful improvement, rather than relying on intuition or past correlations.*
+
+- Supporting decisions about whether and how to act under uncertainty, using explicit estimates of risks and chances  
+  *For example: comparing the expected upside and downside of launching a new campaign versus doing nothing, including the probability that the effect is negligible or negative.*
+
+I apply the same standards in academic and applied work: explicit assumptions, transparent reasoning, and careful treatment of uncertainty, with a focus on analyses that are robust, interpretable, and decision-relevant."""
 
 # Projects
 [languages.en.params.projects]
@@ -218,7 +227,7 @@ Studying the scientific process itself, including peer review, funding mechanism
 
 **Selected Publications:**
 - [Costs of Competition in Research Funding](https://www.pnas.org/doi/10.1073/pnas.2407644121)
-- [Using Peer Review to Meusure Societal Relevance](https://direct.mit.edu/qss/article/doi/10.1162/qss.a.19/132641)
+- [Using Peer Review to Measure Societal Relevance](https://direct.mit.edu/qss/article/doi/10.1162/qss.a.19/132641)
 - [Questionable Research Practices in Research Funding](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293310)
 - [Fostering a Research Integrity Culture](https://academic.oup.com/spp/article-abstract/50/1/133/6749026)
 - [Funding Through a Modified Lottery](https://www.tandfonline.com/doi/full/10.1080/08989621.2021.1927727)
@@ -330,9 +339,11 @@ newPage  = true
 [languages.nl.params.about]
 enable = true
 title  = "Over mij"
-content = """Ik bied rigoureuze beslissingsondersteuning voor bedrijven, onderzoekers en overheidsinstanties die werken met complexe data. Mijn werk is gebaseerd op peer-reviewed onderzoek, met een achtergrond in Bayesiaanse statistiek, causale inferentie, biodiversiteitswetenschap, wetenschapsfilosofie en digital humanities.
+content = """Ik heb bijna tien jaar ervaring als academisch onderzoeker, met aanstellingen aan de University of Cambridge, KU Leuven en UC Louvain. Mijn onderzoek situeerde zich op het kruispunt van verschillende domeinen, waaronder digital humanities, wetenschapsfilosofie en biodiversiteitswetenschap, en resulteerde in 46 peer-reviewed publicaties en meer dan 500 citaties.
 
-Ik focus op gestructureerde, doorgaans causale modellen die aannames expliciet en resultaten interpreteerbaar maken, in plaats van puur voorspellende of black-box benaderingen. Mijn doel is om analyses te produceren die transparant, reproduceerbaar en beslissingsrelevant zijn — van marketingeffectiviteit en experimenten tot onderzoeksevaluatie en beleidsanalyse."""
+Naast academisch onderzoek was ik actief betrokken bij beleids- en governancecontexten. Dit omvatte advies aan multilaterale milieuakkoorden en internationale organisaties zoals Catalogue of Life, evenals deelname aan expertcommissies waar onderzoeksresultaten moesten worden vertaald naar concrete beslissingen, standaarden en beleidskaders.
+
+Meer recent heb ik deze achtergrond buiten de academische wereld toegepast door Schoenen Torfs te ondersteunen bij het ontwerpen en structureren van haar filantropische en sociale-impactstrategie. Daarbij maakte ik gebruik van inzichten uit de ontwikkelingseconomie, ethiek en gezondheidseconomie om het beschikbare budget zo in te zetten dat het de impact-doelen van het bedrijf maximaliseerde. Momenteel help ik hen bij het implementeren van een geavanceerd marketing analytics framework."""
 
 # Services
 [languages.nl.params.services]
@@ -341,18 +352,25 @@ title  = "Waarmee ik kan helpen"
 items  = []
 content = """
 **Voor Academici:**
-- Ontwerp van experimenten en analyse van de resultaten
-- Ondersteuning bij verantwoorde onderzoekspraktijken (DMP, preregistratie, open data)
-- Visualisatie en communicatie van statistische resultaten
-- Schrijven van methodologie- en resultatensecties
+- Het ontwerpen en analyseren van experimenten  
+- Ondersteuning bij verantwoorde onderzoekspraktijken (datamanagementplannen, preregistratie, open data)  
+- Heldere visualisatie en communicatie van statistische resultaten  
+- Ondersteuning bij het schrijven, reviewen en versterken van methodologie- en resultatensecties  
 
 **Voor Bedrijven:**
-- Opzetten en analyseren van experimenten (A/B-tests en varianten wanneer klassiek testen niet volstaat)
-- Inzicht in wat marketing bijdraagt aan verkoop en groei, op basis van geaggregeerde data (media mix modelling, ook zonder cookies)
-- Ondersteuning bij beslissingen over wat er zou gebeuren als je wél of net niet ingrijpt — ook in situaties die afwijken van het verleden
-- Besluitvorming onder onzekerheid, met expliciete inschattingen van risico’s en kansen (bv. de kans op winst, verlies of geen effect)
+- Het vertalen van gevestigde academische inzichten naar bruikbare analyses en beslissingen, aangepast aan reële data, beperkingen en tijdslijnen  
+  *Bijvoorbeeld: het toepasbaar maken van geavanceerde statistische modellen uit marketingonderzoek voor grootschalige, ruisvolle data en de operationele realiteit van besluitvorming.*
 
-Ik benader toegepaste problemen met dezelfde standaarden die ik gebruik in academisch onderzoek: expliciete aannames, transparante modelleringskeuzes en zorgvuldige behandeling van onzekerheid. In plaats van het najagen van enkele beste schattingen, prioriteer ik robuustheid, gevoeligheid voor aannames en de grenzen van wat de data kunnen ondersteunen."""
+- Het kwantificeren van de bijdrage van marketing aan omzet en groei op basis van geaggregeerde, post-cookie data, om het rendement van marketingbudgetten te verbeteren  
+  *Bijvoorbeeld: bepalen welke kanalen of campagnes rendabel opgeschaald kunnen worden en waar budgetten kunnen worden afgebouwd of herverdeeld zonder negatieve impact op de omzet.*
+
+- Het ontwerpen en analyseren van experimenten om vast te stellen welke acties of interventies daadwerkelijk werken  
+  *Bijvoorbeeld: testen of een prijswijziging, promotie, aanpassing aan de website of klantcommunicatie leidt tot een betekenisvolle verbetering, in plaats van te vertrouwen op intuïtie of historische correlaties.*
+
+- Het ondersteunen van beslissingen over of en hoe te handelen onder onzekerheid, met expliciete inschattingen van risico’s en kansen  
+  *Bijvoorbeeld: het afwegen van de verwachte voor- en nadelen van het lanceren van een nieuwe campagne tegenover niets doen, inclusief de kans dat het effect verwaarloosbaar of negatief is.*
+
+Ik hanteer dezelfde standaarden in academisch en toegepast werk: expliciete aannames, transparante redenering en een zorgvuldige omgang met onzekerheid, met analyses die robuust, interpreteerbaar en relevant zijn voor besluitvorming."""
 
 # Projects
 [languages.nl.params.projects]
@@ -487,7 +505,7 @@ Het bestuderen van het wetenschappelijke proces zelf, inclusief peer review, fin
 
 **Geselecteerde publicaties:**
 - [Costs of Competition in Research Funding](https://www.pnas.org/doi/10.1073/pnas.2407644121)
-- [Using Peer Review to Meusure Societal Relevance](https://direct.mit.edu/qss/article/doi/10.1162/qss.a.19/132641)
+- [Using Peer Review to Measure Societal Relevance](https://direct.mit.edu/qss/article/doi/10.1162/qss.a.19/132641)
 - [Questionable Research Practices in Research Funding](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293310)
 - [Fostering a Research Integrity Culture](https://academic.oup.com/spp/article-abstract/50/1/133/6749026)
 - [Funding Through a Modified Lottery](https://www.tandfonline.com/doi/full/10.1080/08989621.2021.1927727)
