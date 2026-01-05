@@ -23,7 +23,7 @@ defaultContentLanguageInSubdir = false
 [params]
 title = "Stijn Conix — SC-Analytics"
 useBootstrapCDN = true
-darkmode = true
+darkmode = false
 
 [params.navbar]
 disableSearch = true
