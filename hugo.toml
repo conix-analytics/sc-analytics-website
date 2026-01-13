@@ -40,7 +40,7 @@ description = "Causal statistical analysis rooted in science and open source ind
 enable   = true
 intro    = "Hi, my name is"
 title    = "Stijn Conix"
-subtitle = "I help businesses and academics turn complex data into robust decisions and replicable science."
+subtitle = "I help businesses, policy-makers and academics turn complex data into robust decisions and replicable science."
 content = "My work is grounded in peer-reviewed research. I design structured models that make assumptions explicit and results interpretable."
 image = "/images/profile_pic.jpg"
 
@@ -92,7 +92,20 @@ content = """
 - Supporting decisions about whether and how to act under uncertainty, using explicit estimates of risks and chances  
   *For example: comparing the expected upside and downside of launching a new campaign versus doing nothing, including the probability that the effect is negligible or negative.*
 
-I apply the same standards in academic and applied work: explicit assumptions, transparent reasoning, and careful treatment of uncertainty, with a focus on analyses that are robust, interpretable, and decision-relevant."""
+**For Science Policy-Makers:**
+- Using existing observational data to answer concrete policy questions and to compare plausible funding or governance interventions before committing to them  
+  *For example: analysing past evaluation procedures to assess which design choices are associated with stronger scientific outputs or fewer unintended effects.*
+
+- Designing and setting up experiments or pilot programmes to test policy interventions before scaling them up  
+  *For example: trialling alternative grant evaluation criteria, review processes, or incentive structures on a subset of calls to measure their effects.*
+
+- Measuring the effectiveness of new policies during rollout, rather than only evaluating them retrospectively  
+  *For example: real-time tracking whether a new funding instrument changes researcher behaviour, collaboration patterns, or research outputs as intended.*
+
+- Grounding policy design and reform in the scientific literature, while translating that evidence to real-world institutional constraints  
+  *For example: connecting insights from metascience, economics of science, and evaluation research to the practical realities of funding agencies and ministries.*
+
+I apply the same standards in academic, applied and policy work: explicit assumptions, transparent reasoning, and careful treatment of uncertainty, with a focus on analyses that are robust, interpretable, and decision-relevant."""
 
 # Projects
 [languages.en.params.projects]
@@ -318,7 +331,7 @@ description = "Causale statistische analyse geworteld in wetenschap en open sour
 enable   = true
 intro    = "Hallo, mijn naam is"
 title    = "Stijn Conix"
-subtitle = "Ik help bedrijven en academici complexe data om te zetten in robuuste beslissingen en repliceerbare wetenschap."
+subtitle = "Ik help bedrijven, beleidsmakers en academici complexe data om te zetten in robuuste beslissingen en repliceerbare wetenschap."
 content = "Mijn werk is gebaseerd op peer-reviewed onderzoek. Ik ontwerp gestructureerde modellen die aannames expliciet en resultaten interpreteerbaar maken."
 image = "/images/profile_pic.jpg"
 
@@ -370,7 +383,20 @@ content = """
 - Het ondersteunen van beslissingen over of en hoe te handelen onder onzekerheid, met expliciete inschattingen van risico’s en kansen  
   *Bijvoorbeeld: het afwegen van de verwachte voor- en nadelen van het lanceren van een nieuwe campagne tegenover niets doen, inclusief de kans dat het effect verwaarloosbaar of negatief is.*
 
-Ik hanteer dezelfde standaarden in academisch en toegepast werk: expliciete aannames, transparante redenering en een zorgvuldige omgang met onzekerheid, met analyses die robuust, interpreteerbaar en relevant zijn voor besluitvorming."""
+**Voor Wetenschapsbeleidsmakers:**
+- Analyse van bestaande observationele data om concrete beleidsvragen te beantwoorden en mogelijke financierings- of governance-interventies te vergelijken vóór ze worden doorgevoerd  
+  *Bijvoorbeeld: analyse van eerdere oproepen om na te gaan welke ontwerpkeuzes samenhangen met sterkere wetenschappelijke output of minder ongewenste neveneffecten.*
+
+- Ontwerpen en opzetten van experimenten of pilootprogramma’s om beleidsinterventies te testen voor grootschalige implementatie  
+  *Bijvoorbeeld: het uittesten van alternatieve beoordelingscriteria, reviewprocessen of incentive-structuren binnen een subset van oproepen om hun effecten te meten.*
+
+- Meten van de effectiviteit van nieuw beleid tijdens de uitrol, in plaats van uitsluitend achteraf te evalueren  
+  *Bijvoorbeeld: opvolgen of een nieuw financieringsinstrument het gedrag van onderzoekers, samenwerkingspatronen of onderzoeksoutput daadwerkelijk verandert zoals beoogd.*
+
+- Verankeren van nieuw beleid in de wetenschappelijke literatuur, met vertaling naar de institutionele realiteit van beleidsvorming  
+  *Bijvoorbeeld: inzichten uit metawetenschap, wetenschapseconomie en evaluatieonderzoek koppelen aan de praktische werking van financieringsagentschappen en ministeries.*
+
+Ik hanteer dezelfde standaarden in academisch, toegepast en beleidsgericht werk: expliciete aannames, transparante redenering en een zorgvuldige omgang met onzekerheid, met analyses die robuust, interpreteerbaar en relevant zijn voor besluitvorming."""
 
 # Projects
 [languages.nl.params.projects]
