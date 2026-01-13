@@ -71,41 +71,34 @@ More recently, I have applied this background outside academia by helping the la
 [languages.en.params.services]
 enable = true
 title  = "What I Can Help With"
-items  = []
-content = """
-**For Academics:**
-- Designing and analysing experiments  
-- Support for responsible research practices (data management plans, preregistration, open data)  
-- Clear visualisation and communication of statistical results  
-- Support with writing, reviewing, and strengthening methodology and results sections  
+footer = "I apply the same standards in academic, applied and policy work: explicit assumptions, transparent reasoning, and careful treatment of uncertainty, with a focus on analyses that are robust, interpretable, and decision-relevant."
 
-**For Businesses:**
-- Translating established academic evidence into usable insights and decisions, adapted to real-world data, constraints, and timelines  
-  *For example: adapting state-of-the-art statistical models from marketing research so they work at scale with noisy data and the operational constraints of practical decision-making.*
+[[languages.en.params.services.tabs]]
+name = "Academics"
+items = [
+  "Designing and analysing experiments",
+  "Support for responsible research practices (data management plans, preregistration, open data)",
+  "Clear visualisation and communication of statistical results",
+  "Support with writing, reviewing, and strengthening methodology and results sections"
+]
 
-- Quantifying what marketing contributes to sales and growth using aggregated, post-cookie data, to improve the return on marketing spend  
-  *For example: identifying which channels or campaigns can be scaled profitably, and which budgets can be reduced or reallocated without hurting sales.*
+[[languages.en.params.services.tabs]]
+name = "Businesses"
+items = [
+  "Translating established academic evidence into usable insights and decisions, adapted to real-world data, constraints, and timelines  \n*For example: adapting state-of-the-art statistical models from marketing research so they work at scale with noisy data and the operational constraints of practical decision-making.*",
+  "Quantifying what marketing contributes to sales and growth using aggregated, post-cookie data, to improve the return on marketing spend  \n*For example: identifying which channels or campaigns can be scaled profitably, and which budgets can be reduced or reallocated without hurting sales.*",
+  "Designing and analysing experiments to identify which actions or interventions actually work  \n*For example: testing whether a pricing change, promotion, website adjustment, or customer communication leads to a meaningful improvement, rather than relying on intuition or past correlations.*",
+  "Supporting decisions about whether and how to act under uncertainty, using explicit estimates of risks and chances  \n*For example: comparing the expected upside and downside of launching a new campaign versus doing nothing, including the probability that the effect is negligible or negative.*"
+]
 
-- Designing and analysing experiments to identify which actions or interventions actually work  
-  *For example: testing whether a pricing change, promotion, website adjustment, or customer communication leads to a meaningful improvement, rather than relying on intuition or past correlations.*
-
-- Supporting decisions about whether and how to act under uncertainty, using explicit estimates of risks and chances  
-  *For example: comparing the expected upside and downside of launching a new campaign versus doing nothing, including the probability that the effect is negligible or negative.*
-
-**For Science Policy-Makers:**
-- Using existing observational data to answer concrete policy questions and to compare plausible funding or governance interventions before committing to them  
-  *For example: analysing past evaluation procedures to assess which design choices are associated with stronger scientific outputs or fewer unintended effects.*
-
-- Designing and setting up experiments or pilot programmes to test policy interventions before scaling them up  
-  *For example: trialling alternative grant evaluation criteria, review processes, or incentive structures on a subset of calls to measure their effects.*
-
-- Measuring the effectiveness of new policies during rollout, rather than only evaluating them retrospectively  
-  *For example: real-time tracking whether a new funding instrument changes researcher behaviour, collaboration patterns, or research outputs as intended.*
-
-- Grounding policy design and reform in the scientific literature, while translating that evidence to real-world institutional constraints  
-  *For example: connecting insights from metascience, economics of science, and evaluation research to the practical realities of funding agencies and ministries.*
-
-I apply the same standards in academic, applied and policy work: explicit assumptions, transparent reasoning, and careful treatment of uncertainty, with a focus on analyses that are robust, interpretable, and decision-relevant."""
+[[languages.en.params.services.tabs]]
+name = "Policy Makers"
+items = [
+  "Using existing observational data to answer concrete policy questions and to compare plausible funding or governance interventions before committing to them  \n*For example: analysing past evaluation procedures to assess which design choices are associated with stronger scientific outputs or fewer unintended effects.*",
+  "Designing and setting up experiments or pilot programmes to test policy interventions before scaling them up  \n*For example: trialling alternative grant evaluation criteria, review processes, or incentive structures on a subset of calls to measure their effects.*",
+  "Measuring the effectiveness of new policies during rollout, rather than only evaluating them retrospectively  \n*For example: real-time tracking whether a new funding instrument changes researcher behaviour, collaboration patterns, or research outputs as intended.*",
+  "Grounding policy design and reform in the scientific literature, while translating that evidence to real-world institutional constraints  \n*For example: connecting insights from metascience, economics of science, and evaluation research to the practical realities of funding agencies and ministries.*"
+]
 
 # Projects
 [languages.en.params.projects]
@@ -362,41 +355,34 @@ Meer recent heb ik deze achtergrond buiten de academische wereld toegepast door 
 [languages.nl.params.services]
 enable = true
 title  = "Waarmee ik kan helpen"
-items  = []
-content = """
-**Voor Academici:**
-- Het ontwerpen en analyseren van experimenten  
-- Ondersteuning bij verantwoorde onderzoekspraktijken (datamanagementplannen, preregistratie, open data)  
-- Heldere visualisatie en communicatie van statistische resultaten  
-- Ondersteuning bij het schrijven, reviewen en versterken van methodologie- en resultatensecties  
+footer = "Ik hanteer dezelfde standaarden in academisch, toegepast en beleidsgericht werk: expliciete aannames, transparante redenering en een zorgvuldige omgang met onzekerheid, met analyses die robuust, interpreteerbaar en relevant zijn voor besluitvorming."
 
-**Voor Bedrijven:**
-- Het vertalen van gevestigde academische inzichten naar bruikbare analyses en beslissingen, aangepast aan reële data, beperkingen en tijdslijnen  
-  *Bijvoorbeeld: het toepasbaar maken van geavanceerde statistische modellen uit marketingonderzoek voor grootschalige, ruisvolle data en de operationele realiteit van besluitvorming.*
+[[languages.nl.params.services.tabs]]
+name = "Academici"
+items = [
+  "Het ontwerpen en analyseren van experimenten",
+  "Ondersteuning bij verantwoorde onderzoekspraktijken (datamanagementplannen, preregistratie, open data)",
+  "Heldere visualisatie en communicatie van statistische resultaten",
+  "Ondersteuning bij het schrijven, reviewen en versterken van methodologie- en resultatensecties"
+]
 
-- Het kwantificeren van de bijdrage van marketing aan omzet en groei op basis van geaggregeerde, post-cookie data, om het rendement van marketingbudgetten te verbeteren  
-  *Bijvoorbeeld: bepalen welke kanalen of campagnes rendabel opgeschaald kunnen worden en waar budgetten kunnen worden afgebouwd of herverdeeld zonder negatieve impact op de omzet.*
+[[languages.nl.params.services.tabs]]
+name = "Bedrijven"
+items = [
+  "Het vertalen van gevestigde academische inzichten naar bruikbare analyses en beslissingen, aangepast aan reële data, beperkingen en tijdslijnen  \n*Bijvoorbeeld: het toepasbaar maken van geavanceerde statistische modellen uit marketingonderzoek voor grootschalige, ruisvolle data en de operationele realiteit van besluitvorming.*",
+  "Het kwantificeren van de bijdrage van marketing aan omzet en groei op basis van geaggregeerde, post-cookie data, om het rendement van marketingbudgetten te verbeteren  \n*Bijvoorbeeld: bepalen welke kanalen of campagnes rendabel opgeschaald kunnen worden en waar budgetten kunnen worden afgebouwd of herverdeeld zonder negatieve impact op de omzet.*",
+  "Het ontwerpen en analyseren van experimenten om vast te stellen welke acties of interventies daadwerkelijk werken  \n*Bijvoorbeeld: testen of een prijswijziging, promotie, aanpassing aan de website of klantcommunicatie leidt tot een betekenisvolle verbetering, in plaats van te vertrouwen op intuïtie of historische correlaties.*",
+  "Het ondersteunen van beslissingen over of en hoe te handelen onder onzekerheid, met expliciete inschattingen van risico's en kansen  \n*Bijvoorbeeld: het afwegen van de verwachte voor- en nadelen van het lanceren van een nieuwe campagne tegenover niets doen, inclusief de kans dat het effect verwaarloosbaar of negatief is.*"
+]
 
-- Het ontwerpen en analyseren van experimenten om vast te stellen welke acties of interventies daadwerkelijk werken  
-  *Bijvoorbeeld: testen of een prijswijziging, promotie, aanpassing aan de website of klantcommunicatie leidt tot een betekenisvolle verbetering, in plaats van te vertrouwen op intuïtie of historische correlaties.*
-
-- Het ondersteunen van beslissingen over of en hoe te handelen onder onzekerheid, met expliciete inschattingen van risico’s en kansen  
-  *Bijvoorbeeld: het afwegen van de verwachte voor- en nadelen van het lanceren van een nieuwe campagne tegenover niets doen, inclusief de kans dat het effect verwaarloosbaar of negatief is.*
-
-**Voor Wetenschapsbeleidsmakers:**
-- Analyse van bestaande observationele data om concrete beleidsvragen te beantwoorden en mogelijke financierings- of governance-interventies te vergelijken vóór ze worden doorgevoerd  
-  *Bijvoorbeeld: analyse van eerdere oproepen om na te gaan welke ontwerpkeuzes samenhangen met sterkere wetenschappelijke output of minder ongewenste neveneffecten.*
-
-- Ontwerpen en opzetten van experimenten of pilootprogramma’s om beleidsinterventies te testen voor grootschalige implementatie  
-  *Bijvoorbeeld: het uittesten van alternatieve beoordelingscriteria, reviewprocessen of incentive-structuren binnen een subset van oproepen om hun effecten te meten.*
-
-- Meten van de effectiviteit van nieuw beleid tijdens de uitrol, in plaats van uitsluitend achteraf te evalueren  
-  *Bijvoorbeeld: opvolgen of een nieuw financieringsinstrument het gedrag van onderzoekers, samenwerkingspatronen of onderzoeksoutput daadwerkelijk verandert zoals beoogd.*
-
-- Verankeren van nieuw beleid in de wetenschappelijke literatuur, met vertaling naar de institutionele realiteit van beleidsvorming  
-  *Bijvoorbeeld: inzichten uit metawetenschap, wetenschapseconomie en evaluatieonderzoek koppelen aan de praktische werking van financieringsagentschappen en ministeries.*
-
-Ik hanteer dezelfde standaarden in academisch, toegepast en beleidsgericht werk: expliciete aannames, transparante redenering en een zorgvuldige omgang met onzekerheid, met analyses die robuust, interpreteerbaar en relevant zijn voor besluitvorming."""
+[[languages.nl.params.services.tabs]]
+name = "Beleidsmakers"
+items = [
+  "Analyse van bestaande observationele data om concrete beleidsvragen te beantwoorden en mogelijke financierings- of governance-interventies te vergelijken vóór ze worden doorgevoerd  \n*Bijvoorbeeld: analyse van eerdere oproepen om na te gaan welke ontwerpkeuzes samenhangen met sterkere wetenschappelijke output of minder ongewenste neveneffecten.*",
+  "Ontwerpen en opzetten van experimenten of pilootprogramma's om beleidsinterventies te testen voor grootschalige implementatie  \n*Bijvoorbeeld: het uittesten van alternatieve beoordelingscriteria, reviewprocessen of incentive-structuren binnen een subset van oproepen om hun effecten te meten.*",
+  "Meten van de effectiviteit van nieuw beleid tijdens de uitrol, in plaats van uitsluitend achteraf te evalueren  \n*Bijvoorbeeld: opvolgen of een nieuw financieringsinstrument het gedrag van onderzoekers, samenwerkingspatronen of onderzoeksoutput daadwerkelijk verandert zoals beoogd.*",
+  "Verankeren van nieuw beleid in de wetenschappelijke literatuur, met vertaling naar de institutionele realiteit van beleidsvorming  \n*Bijvoorbeeld: inzichten uit metawetenschap, wetenschapseconomie en evaluatieonderzoek koppelen aan de praktische werking van financieringsagentschappen en ministeries.*"
+]
 
 # Projects
 [languages.nl.params.projects]
